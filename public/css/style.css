@@ -1,0 +1,61 @@
+@font-face {
+  font-family: "Amsterdam three";
+  src: url(../fonts/amsterdam-three-slant.ttf);
+}
+
+html body .container-fluid .amsterdam {
+  font-family: "Amsterdam three";
+  font-size: 1em;
+}
+
+.verde {
+  color: #198754 !important;
+}
+
+.verde:hover {
+  color: #5cdda1 !important;
+}
+
+.bg-verde {
+  background-color: #198754 !important;
+}
+
+.bg-verde:hover {
+  background-color: #5cdda1 !important;
+}
+
+.carrossel__img {
+  object-fit: cover;
+  object-position: 20% 80%;
+  height: 25rem;
+  width: 95%;
+  margin: 0.5rem auto 0.5rem;
+  border-radius: 8px;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+}
+
+@media screen and (max-width: 768px) {
+  .carrossel__img {
+    height: 50%;
+    width: 100%;
+  }
+}
+
+html body .cartao {
+  width: 18rem;
+  padding: 0;
+  border: none;
+}
+
+@media screen and (max-width: 768px) {
+  html body .cartao {
+    width: 95%;
+  }
+}
+
+@media screen and (max-width: 975px) {
+  html body .cabecalho {
+    padding-left: 0.5rem !important;
+    padding-right: 0.5rem !important;
+  }
+}
